@@ -7,4 +7,6 @@ This is a demo project for I.T begingers course
 
  ### To package the application, execute
 
-      npm pack   
+      npm pack 
+      
+      Application run on port 3000
