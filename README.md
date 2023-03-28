@@ -1,5 +1,5 @@
 # Teamable
-This is a demo project for I.T begingers course
+This is an application for managing user profile
 
 ### To run the tests execute
 
