@@ -17,7 +17,9 @@ app.use('/', express.static(__dirname +'/dist'))
 
 app.get('/get-profile', async function(req, res) {
         // connect to mongodb database
-
+        await client.connect();
+        console.log('Connected successfully to server')
+         
         // initiates or get the db or collection
         const db = client.db(dbName)
         const collection = db.collection(collName)
